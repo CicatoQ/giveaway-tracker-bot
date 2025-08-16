@@ -1,0 +1,32 @@
+{
+  "name": "giveaway-telegram-bot-simple",
+  "version": "2.0.0",
+  "description": "Telegram bot for tracking giveaways (simplified version)",
+  "main": "enhanced_telegram_bot.js",
+  "scripts": {
+    "start": "node enhanced_telegram_bot.js",
+    "dev": "nodemon enhanced_telegram_bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "giveaway",
+    "tracker",
+    "reminder"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.6",
+    "node-cron": "^3.0.2",
+    "moment": "^2.29.4",
+    "tesseract.js": "^5.0.2",
+    "axios": "^1.6.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+

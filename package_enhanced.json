@@ -1,0 +1,41 @@
+{
+  "name": "enhanced-giveaway-telegram-bot",
+  "version": "2.0.0",
+  "description": "Smart Telegram bot for tracking giveaways with image recognition and AI extraction",
+  "main": "enhanced_telegram_bot.js",
+  "scripts": {
+    "start": "node enhanced_telegram_bot.js",
+    "dev": "nodemon enhanced_telegram_bot.js",
+    "setup": "node setup_wizard.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "giveaway",
+    "tracker",
+    "OCR",
+    "AI",
+    "image-recognition",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.6",
+    "node-cron": "^3.0.2",
+    "moment": "^2.29.4",
+    "tesseract.js": "^5.0.2",
+    "openai": "^4.20.1",
+    "canvas": "^2.11.2",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "optionalDependencies": {
+    "openai": "^4.20.1"
+  }
+}
+
+

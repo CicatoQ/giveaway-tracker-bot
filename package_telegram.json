@@ -1,0 +1,31 @@
+{
+  "name": "giveaway-telegram-bot",
+  "version": "1.0.0",
+  "description": "Personal Telegram bot for tracking giveaway deadlines",
+  "main": "telegram_bot.js",
+  "scripts": {
+    "start": "node telegram_bot.js",
+    "dev": "nodemon telegram_bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "giveaway",
+    "tracker",
+    "reminder"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.6",
+    "node-cron": "^3.0.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+
+
+
