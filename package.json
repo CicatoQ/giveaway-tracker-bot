@@ -1,7 +1,7 @@
 {
-  "name": "giveaway-telegram-bot-simple",
+  "name": "giveaway-telegram-bot",
   "version": "2.0.0",
-  "description": "Telegram bot for tracking giveaways (simplified version)",
+  "description": "Telegram bot for tracking giveaways with image recognition",
   "main": "enhanced_telegram_bot.js",
   "scripts": {
     "start": "node enhanced_telegram_bot.js",
@@ -12,7 +12,8 @@
     "bot",
     "giveaway",
     "tracker",
-    "reminder"
+    "ocr",
+    "image-recognition"
   ],
   "author": "Your Name",
   "license": "MIT",
@@ -27,6 +28,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
 
